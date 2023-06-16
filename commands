@@ -1,0 +1,45 @@
+1. to know the os>>> cat /etc/os-release
+		     cat /etc/redhat-release
+		     cat /etc/rocky-release
+2.to know host details>> hostnamectl
+3.to know only hostname>>> hostname
+4.to know set hostname>>> hostnamectl set-hostname hostname
+5. to know kernel version>> uname-r
+6. to know kernel version along with hostname>> uname-a
+7. to update hostname>> su root
+		        exec bash
+8.to install packages>> yum install package name -y
+9.to know the directory>> pwd
+10.to change the directory>> cd ex:cd /opt
+11.to create files>> touch filename
+12.to create files along with data>> cd >filename
+13.to check the data which we have entered in file>>> cat filename
+14.to check append(add) the data>>> cat >>filename
+15. to see long list of files>> ll---ex:1
+				       2
+16.to see short list of files>> 1s---ex:1 2
+17.ll=ls-l
+18.ls=ls-a
+19.ll=ls-la (to see list with along with hiddenfiles)
+20.ls -r (to reverse the files)
+21.ll -a (to see hidden files)
+22.to create adirectory>>> mkdir
+23.to move or rename the command>>> mv sourcename filename
+				   ex: mv linux-commands commands
+24:to remove files>>> rm -f file name
+25.to remove directory>> rm -rf filename  rmdir filename
+26.to create directory  in other directory>>> mkdir destination filename
+					      mkdir /root/test1
+27.to create a files at a time in a directory >>> touch 1 2 3 4 
+28.to create a files in series>>>hello{1..3}
+29.cd ->>>command to move to previous location
+30.ctrl+c>> to interrupt process
+31. cd..to shift to previous directory
+32.to copy files>>>> cp hello{1..3}
+33.to copy the directory>>> cp -r drectoryname
+34.to create subdirectories>>>> mkdir -p classr/subdirectory/directiry...
+35.to shift from ending to starting directory>>>> cd ../../../
+36.to shift from starting to ending directory>>> cd class5/directory/directory
+37.vi-virtual interface
+38.vim-virtual interface mode
+
